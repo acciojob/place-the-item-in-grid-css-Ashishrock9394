@@ -1,2 +1,10 @@
-
-/* Your CSS Code here. */
+.holder{
+	display: grid;
+	grid-template-columns: auto auto;
+	width: 200px;
+	background-color: skyblue;
+}
+.holder>div{
+	text-align: center;
+	padding: 5px;
+}
